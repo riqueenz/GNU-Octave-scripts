@@ -13,7 +13,7 @@ theta_pp = expand(solve(eqn, theta_pp));
 f1 = x2
 f2 = theta_pp
 
-disp('Modele linearise tangent au point d'equilibre')
+disp('Modele linearise tangent au point d equilibre')
 Jx = jacobian([f1, f2], [x1 x2])
 Ju = jacobian([f1, f2],[F])
 
