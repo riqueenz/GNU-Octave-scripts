@@ -1,4 +1,4 @@
-pkg load symbolic
+%pkg load symbolic
 syms x1 x2 x3
 
 f1=[x3; -2; 0];
