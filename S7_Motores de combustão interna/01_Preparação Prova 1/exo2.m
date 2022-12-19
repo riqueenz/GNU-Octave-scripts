@@ -22,7 +22,7 @@ D = sym (D, 'r');
 z = sym (z, 'r');
 V2 = sym (V2, 'r');
 
-disp("Vdu = Vd / z")
+disp("\nVdu = Vd / z")
 Vdu = Vd / z
 disp("Volume de 1 cilindro - Vdu em cm3:")
 double(Vdu)
