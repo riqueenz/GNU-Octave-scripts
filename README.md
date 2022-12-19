@@ -1,2 +1,2 @@
-# robot-command
-Mechatronic systems command scripts made for the GNU Octave / Matlab calculation software
+# Alguns scripts de GNU Octave
+Aqui você encontra alguns scripts que fiz em GNU Octave, que é um software livre parecido com o Matlab.
