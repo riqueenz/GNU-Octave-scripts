@@ -2,6 +2,7 @@ clear
 clc
 pkg load symbolic
 syms wn wd k m fn c Cc epsilon sigma Td x0 x1
+disp("Dados:")
 
 m = 1100 % Kg
 m0 = 26 % Kg
