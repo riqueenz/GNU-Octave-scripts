@@ -15,5 +15,5 @@ epsilon = c/Cc
 if (epsilon > 0) && (epsilon < 1)
   disp("Movimento oscilatório subamortecido")
   epsilon
-  wd = wn*sqrt(1-(epsilon**2))
+  wd = wn*sqrt(1-(epsilon^2))
 endif
