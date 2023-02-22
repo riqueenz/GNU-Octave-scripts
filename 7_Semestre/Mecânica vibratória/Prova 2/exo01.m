@@ -2,11 +2,13 @@ clear
 clc
 pkg load symbolic
 syms wn wd k m fn c Cc epsilon
+disp("Dados:")
 
 k = 1400 # N/m
 m = 4.5 # Kg
 c = 50 # N.s/m
 
+disp("\nCálculo:")
 wn = sqrt(k/m)
 fn = (1/(2*pi))*wn
 Cc = 2*m*wn
