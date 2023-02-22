@@ -4,9 +4,8 @@ pkg load symbolic
 syms wn wd k m fn c Cc epsilon sigma Td x0 x1
 disp("Dados:")
 
-m = 200 # Kg
-#x0 = 0.01 # m
 x1 = (x0/4)*(1/4) # m
+m = 200 # Kg
 Td = 2 # s
 
 disp("\nCálculo:")
